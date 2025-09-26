@@ -1,0 +1,88 @@
+--- Logistic Regression ---
+Accuracy: 0.84
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  No Disease       0.85      0.85      0.85        33
+     Disease       0.82      0.82      0.82        28
+
+    accuracy                           0.84        61
+   macro avg       0.83      0.83      0.83        61
+weighted avg       0.84      0.84      0.84        61
+
+-------------------------
+
+--- Decision Tree ---
+Accuracy: 0.85
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  No Disease       0.83      0.91      0.87        33
+     Disease       0.88      0.79      0.83        28
+
+    accuracy                           0.85        61
+   macro avg       0.86      0.85      0.85        61
+weighted avg       0.85      0.85      0.85        61
+
+-------------------
+
+--- Random Forest ---
+Accuracy: 0.84
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  No Disease       0.81      0.91      0.86        33
+     Disease       0.88      0.75      0.81        28
+
+    accuracy                           0.84        61
+   macro avg       0.84      0.83      0.83        61
+weighted avg       0.84      0.84      0.83        61
+
+-------------------
+
+--- Support Vector Machine ---
+Accuracy: 0.84
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  No Disease       0.85      0.85      0.85        33
+     Disease       0.82      0.82      0.82        28
+
+    accuracy                           0.84        61
+   macro avg       0.83      0.83      0.83        61
+weighted avg       0.84      0.84      0.84        61
+
+---------------------------------------------------------------------------------------------------------
+
+--- K-Means Clustering Results (K=2) ---
+Silhouette Score: 0.25
+
+Cross-Tabulation with Actual Labels:
+col_0     0   1
+target         
+0       142  22
+1        42  97
+
+
+--- Hierarchical Clustering Results (n=2) ---
+Silhouette Score: 0.2
+
+Cross-Tabulation with Actual Labels:
+col_0     0    1
+target          
+0       122   42
+1        39  100
+
+---------------------------------------------------------------------------------------------------------
+
+--- Performance of Tuned Model ---
+              
+                           Before Tuning        After Tuning
+Logistic Regression          0.868852             0.801446
+Decision Tree                0.737705             0.797449
+Random Forest                0.819672             0.797109
+Support Vector Machine       0.868852             0.797449

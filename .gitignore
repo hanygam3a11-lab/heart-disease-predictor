@@ -1,0 +1,15 @@
+# --- Virtual Environment ---
+# Prevents uploading your large venv folder
+venv/
+
+# --- Python Cache ---
+# Ignores temporary files created by Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Optional: If you don't want to upload your data or results ---
+# Uncomment the lines below by removing the '#' if your files are too large
+# data/
+# results/ 
