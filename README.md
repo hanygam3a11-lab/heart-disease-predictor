@@ -2,15 +2,15 @@
 
 ## 📝 Overview
 
-[cite_start]This project uses a dataset of patient clinical records to predict the likelihood of heart disease. [cite: 1] [cite_start]The goal is to build and evaluate several classification models, fine-tune them using hyperparameter optimization, and compare their performance to identify the most effective algorithm for this task. [cite: 2]
+[cite_start]This project uses a dataset of patient clinical records to predict the likelihood of heart disease.The goal is to build and evaluate several classification models, fine-tune them using hyperparameter optimization, and compare their performance to identify the most effective algorithm for this task. 
 
 ---
 
 ## 💾 Dataset
 
-The data used in this project is the "Heart Disease UCI" dataset, which contains clinical attributes from patients. [cite_start]All missing values were handled by imputing the column mean, and all features were converted to an integer data type for consistency. [cite: 3]
+The data used in this project is the "Heart Disease UCI" dataset, which contains clinical attributes from patients. [cite_start]All missing values were handled by imputing the column mean, and all features were converted to an integer data type for consistency. 
 
-[cite_start]**Source:** You can find the original dataset at the UCI Machine Learning Repository: https://archive.ics.uci.edu/ml/datasets/heart+Disease [cite: 4]
+**Source:** You can find the original dataset at the UCI Machine Learning Repository: https://archive.ics.uci.edu/ml/datasets/heart+Disease .
 
 ---
 
