@@ -2,7 +2,7 @@
 
 ## 📝 Overview
 
-[cite_start]This project uses a dataset of patient clinical records to predict the likelihood of heart disease.The goal is to build and evaluate several classification models, fine-tune them using hyperparameter optimization, and compare their performance to identify the most effective algorithm for this task. 
+This project uses a dataset of patient clinical records to predict the likelihood of heart disease.The goal is to build and evaluate several classification models, fine-tune them using hyperparameter optimization, and compare their performance to identify the most effective algorithm for this task. 
 
 ---
 
@@ -21,7 +21,7 @@ To run this project locally, follow these steps:
 
 pip install jupyter lab
 
-**1. [cite_start]Clone the repository:** 
+**1. Clone the repository:** 
 ```bash
 
 cd [Your Repository Folder]
